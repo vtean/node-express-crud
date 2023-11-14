@@ -1,4 +1,5 @@
 const ProductsRepository = require("../../database/repositories/ProductsRepository");
+const CategoriesRepository = require("../../database/repositories/CategoriesRepository");
 
 class ProductsService {
     async getAll(fields = undefined) {
@@ -23,6 +24,10 @@ class ProductsService {
 
     async delete(id) {
         return await ProductsRepository.delete(id);
+    }
+
+    async getAllOfCategory(categoryId, fields = undefined) {
+        return await ProductsRepository.getAllOfCategory(categoryId, fields);
     }
 }
 

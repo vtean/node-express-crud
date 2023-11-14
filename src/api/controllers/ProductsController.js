@@ -50,6 +50,17 @@ class ProductsController {
             return response.status(400).json(JSON.stringify(error));
         }
     }
+
+    async getAllOfCategory(request, response) {
+        try {
+            return response
+                .status(200)
+                .json(await ProductsService.getAllOfCategory(request.params.categoryId));
+        } catch (error) {
+            console.log(error);
+            return response.status(500).json(JSON.stringify(error));
+        }
+    }
 }
 
 module.exports = new ProductsController();
