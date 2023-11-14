@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Drochia",
+        "code": "DR",
+        "countryId": 1
+    },
+    {
+        "name": "Donduseni",
+        "code": "DN",
+        "countryId": 1
+    },
+    {
+        "name": "Singerei",
+        "code": "SG",
+        "countryId": 1
+    },
+    {
+        "name": "Iasi",
+        "code": "IS",
+        "countryId": 2
+    },
+    {
+        "name": "Suceava",
+        "code": "SV",
+        "countryId": 2
+    },
+    {
+        "name": "Cluj",
+        "code": "CJ",
+        "countryId": 2
+    },
+    {
+        "name": "Kiev",
+        "code": "KV",
+        "countryId": 3
+    },
+    {
+        "name": "Odessa",
+        "code": "OD",
+        "countryId": 3
+    }
+]
