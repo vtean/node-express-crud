@@ -1,10 +1,10 @@
-const Router = require('express')
-const router = new Router()
+const Router = require("express");
+const router = new Router();
 
-const modules = ['countries', 'regions', 'locations']
+const modules = ["countries", "regions", "locations", "products"];
 
-modules.forEach(module => {
-    router.use(`/${module}`, require(`./${module}`))
-})
+modules.forEach((module) => {
+    router.use(`/${module}`, require(`./${module}`));
+});
 
-module.exports = router
+module.exports = router;
